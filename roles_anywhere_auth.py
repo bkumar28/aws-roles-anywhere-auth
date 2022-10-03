@@ -38,7 +38,7 @@ amz_date = today.strftime('%Y%m%dT%H%M%SZ')
 # Date w/o time, used in credential scope
 date_stamp = today.strftime('%Y%m%d') 
 
-# AMC PCA Certificate pem file data
+# Client Public Certificate pem file data
 cert_pem_data = """-----BEGIN CERTIFICATE-----
 MIIDsjCCApqgAwIBAgIUeG05bf+3JF/ci6atl3e1Uws5UGEwDQYJKoZIhvcNAQEL
 Dw5z6/qYxlZAmyNcEV7rVxDuqAMKkZmXzaahlyf/mMXo4g5hg6pVpxvSa5yNZqVo
@@ -46,6 +46,7 @@ tbHnIJcctRy+YU0zHU8TokyLOs5izCWyUXUC/almCjWjvlyiptzp+sd4LdEEzPZ3
 AcQspvENSUKz8qcl853JH2+nkO/3Lb/wOeLbq69lFM1ZCyKENjM=
 -----END CERTIFICATE-----"""
 
+# Client Private Key pem file data
 private_key_data = """-----BEGIN RSA PRIVATE KEY-----
 MIIEowIBAAKCAQEA2iPS3eCY8za+rSqr/i5A1J1O41iR4BM3T0Dyyo+e2Gf0/rjy
 4h4BAoGBAPM26gRp571f8if4HKsSRzNGDr4l2mrZ/sudlTW7n7viK6HWg2rDHTWA
